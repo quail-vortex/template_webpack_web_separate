@@ -8,7 +8,7 @@ module.exports = [{
   entry: files,
   output: {
     filename: 'js/[name].js',
-    path: `${__dirname}/dist/assets`,
+    path: `${__dirname}/assets`,
   },
   module: {
     rules: [{
@@ -28,7 +28,7 @@ module.exports = [{
   entry: files,
   output: {
     filename: 'js/[name].min.js',
-    path: `${__dirname}/dist/assets`,
+    path: `${__dirname}/assets`,
   },
   module: {
     rules: [{

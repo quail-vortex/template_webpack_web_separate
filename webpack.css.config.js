@@ -10,7 +10,7 @@ module.exports = [{
   devtool: 'source-map',
   entry: files,
   output: {
-    path: `${__dirname}/dist/assets`,
+    path: `${__dirname}/assets`,
   },
   module: {
     rules: [{
@@ -44,7 +44,7 @@ module.exports = [{
   mode: 'production',
   entry: files,
   output: {
-    path: `${__dirname}/dist/assets`,
+    path: `${__dirname}/assets`,
   },
   module: {
     rules: [{
